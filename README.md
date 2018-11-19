@@ -1,3 +1,3 @@
-# Mevn - GraphQl - Boilerplate
+# Mevn - GraphQL - Boilerplate
 
 > Boilerplate to start out with mevn-graphql
