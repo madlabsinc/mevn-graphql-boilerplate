@@ -1,22 +1,10 @@
-const { 
-  GraphQLObjectType, 
-  GraphQLInt, 
-  GraphQLBoolean, 
-  GraphQLString, 
-  GraphQLList, 
-  GraphQLSchema 
-} = require('graphql');
+const { buildSchema } = require('graphql');
 
-// Define your types here
+// GraphQL schema
+let graphqlSchema = buildSchema(`
+    type Query {
+        message: String
+    }
+`);
 
-// Root Query
-const RootQuery = new GraphQLObjectType({
-    name: 'RootQueryType',
-    fields: {
-     // Fields go here
-  }
-});
-
-module.exports = new GraphQLSchema({
-    query: RootQuery
-});
+module.exports = graphqlSchema;
