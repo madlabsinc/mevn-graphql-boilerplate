@@ -1,13 +1,11 @@
 {
-  "name": "spacex-launcher-stats",
+  "name": "mevn-graphql-server",
   "version": "1.0.0",
-  "description": "SpaceX lauuncher stats",
+  "description": "Server side GraphQL template",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "nodemon server.js"
   },
   "author": "James George <jamesgeorge998001@gmail.com>",
   "license": "ISC",
@@ -19,7 +17,6 @@
     "graphql": "^14.0.2"
   },
   "devDependencies": {
-    "concurrently": "^4.0.1",
     "nodemon": "^1.18.6"
   }
 }
