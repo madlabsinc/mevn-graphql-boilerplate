@@ -19,7 +19,7 @@
     "apollo-link-http": "^1.5.14",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
-    "vue": "^2.6.9",
+    "vue": "^2.6.10",
     "vue-apollo": "^3.0.0-beta.28",
     "vue-router": "^3.0.2"
   },
@@ -86,7 +86,7 @@
     "url-loader": "^1.1.2",
     "vue-loader": "^15.7.0",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.9",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^3.1.0",
     "webpack-dev-server": "^2.11.3",
