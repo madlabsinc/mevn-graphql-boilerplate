@@ -10,7 +10,7 @@
   "author": "James George <jamesgeorge998001@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-graphql": "^0.8.0",
