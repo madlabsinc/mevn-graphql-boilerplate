@@ -16,7 +16,7 @@
     "apollo-client": "^2.6.3",
     "apollo-link": "^1.2.12",
     "apollo-link-context": "^1.0.18",
-    "apollo-link-http": "^1.5.14",
+    "apollo-link-http": "^1.5.15",
     "graphql": "^14.4.1",
     "graphql-tag": "^2.10.1",
     "vue": "^2.6.10",
